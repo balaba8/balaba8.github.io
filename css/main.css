@@ -1431,3 +1431,13 @@ nav a {
 .footer_div{
   text-align: center;
 }
+
+/* tags */
+.tag_box li{
+  list-style-type: none;
+  display: inline-block;
+  background: #b9d3ee;
+  padding:3px 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
