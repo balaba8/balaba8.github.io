@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task19</title>
+	<style type="text/css">
+		#button{
+			display: inline-block;
+		}
+		#show-content ul{
+			display: flex;
+			align-items: flex-end;
+		}
+		#show-content  ul li{
+			list-style-type: none;			
+			background: red;
+			margin: 3px;
+			width: 30px;
+			cursor: pointer;
+			color: white;
+			font-size: 14px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<input id="content" type="text"></input>
+	<div id="button">
+		<input id="left-in" type="button" value="左侧入"></input>
+		<input id="right-in" type="button" value="右侧入"></input>&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="left-out" type="button" value="左侧出"></input>
+		<input id="right-out" type="button" value="右侧出"></input>&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="bubble-sort" type="button" value="冒泡排序"></input>&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="init-sort" type="button" value="初始化"></input>
+	</div>
+	<div id="show-content"><ul></ul></div>
+
+	<script type="text/javascript" src="task19.js"></script>
+</body>
+</html>
