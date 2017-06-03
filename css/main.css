@@ -769,6 +769,7 @@ img::-moz-selection {
   .pagination {
     display: block;
     margin: 0 0 4em 0; 
+    text-align: center;
   }
 
   .pagination__page-number {
@@ -844,13 +845,13 @@ img::-moz-selection {
     /*background-color: #F5FFFA;*/
   }
 
-  .post-list li:last-child hr {
+  /* .post-list li:last-child hr {
       display: none; 
-  }
+  } */
 
   .post-list__post-title {
-   margin-top: 5px;
-    margin-bottom: .2em;
+    margin-top: 5px;
+    margin-bottom: .6em;
     font-size: 1.5em;
     line-height: 1.3em;
   }
@@ -863,14 +864,26 @@ img::-moz-selection {
     color: #000000; 
     background-color: #FAFAFA;
   }
-}
+  .post-list__img{
+    float: right;
+  }
+  .post-list__img img{
+    width: 150px;
+    height: 170px;
+    margin: 5px 5px 0 20px ;
+    border-radius: 7px;
+  }
+
+
+
 
 .post-list__meta {
-  display: block;
+  /* display: block; */
   margin: .7em 0 0 0;
   font-size: .9em;
   color: #c7c7c7; 
-  display: inline-block;
+  /* display: inline-block; */
+  overflow: hidden;
 }
 
 .tag-img-icon img{
