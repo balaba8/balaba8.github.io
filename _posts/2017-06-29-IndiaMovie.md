@@ -21,4 +21,4 @@ tags: 电影
 
 　　被阿米尔汗圈粉，被印度电影圈粉！
 
-　　<embed src="//music.163.com/style/swf/widget.swf?sid=33035878&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+　　<embed src="//music.163.com/style/swf/widget.swf?sid=33035878&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all">
