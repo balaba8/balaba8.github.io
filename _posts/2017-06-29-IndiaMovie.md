@@ -2,11 +2,15 @@
 layout: post
 title: 小萝莉的猴神大叔
 date: 2017-06-29 23:17
-image: /images/posts/aside/3.jpg
+image: /images/posts/aside/3.jpeg
 tags: 电影    
 ---
 
 <br />
+
+<audio  autoplay="autoplay" controls="controls" style="display:block;margin:auto;border:2px solid #4285f4;border-radius:5px;">
+    <source  src="http://ohgb4x63l.bkt.clouddn.com/A%20Tong%20-%20Tu%20Jo%20Mila.mp3" type="audio/mp3">
+</audio>
 
 　　前段时间在**电脑**上看了《摔跤吧，爸爸》，哭的稀里哗啦（因为自己心里有事，后面再说），为什么要给电脑加粗呢，因为觉得这么好的电影没有在电影院给予支持，实在是对不起，看看现在中国的这些小鲜肉、这些垃圾电影，钱真是喂狗了。
 
@@ -21,4 +25,6 @@ tags: 电影
 
 　　被阿米尔汗圈粉，被印度电影圈粉！
 
-　　<embed src="//music.163.com/style/swf/widget.swf?sid=33035878&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all">
+
+
+
