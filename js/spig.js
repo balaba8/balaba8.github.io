@@ -120,7 +120,7 @@ jQuery(document).ready(function ($) {
     });
     $("#cloud-tie-wrapper").focus(function(){
         showMessage('有什么想说的请告诉我~');
-    })
+    });
 });
 
 
