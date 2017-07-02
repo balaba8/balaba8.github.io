@@ -286,7 +286,7 @@ td:last-child {
 .pager li>a:hover,
 .pager li>a:focus { 
   color:#fff;
-  background-color:#B9D3EE;
+  background-color: #26A9DD;
 }
 .pager li>a:hover>span,
 .pager li>a:focus>span{
@@ -633,7 +633,7 @@ img::-moz-selection {
     margin-right: 10px;
     font-size: .4em;
     color: #666;
-    border-bottom: 0.1px solid #666;
+    /* border-bottom: 0.1px solid #666; */
     text-shadow: none;
   }
   .btn:hover, .navigation__flink_item a:hover {
@@ -719,7 +719,7 @@ img::-moz-selection {
     padding: 0 10px;
     font-size: .6em;
     text-shadow: none;
-    color: #BF1827;
+    color: #666;
   }
   .navigation__item {
     display: inline-block;

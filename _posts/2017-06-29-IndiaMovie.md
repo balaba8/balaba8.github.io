@@ -6,6 +6,15 @@ image: /images/posts/aside/3.jpeg
 tags: 电影    
 ---
 
+<script>
+	if("221035"!==prompt("请输入接头暗号:"))
+	{
+		alert("快来抓鬼子!");
+		location="http://127.0.0.1:4000/#blog";
+	}
+	
+</script>
+
 <br />
 
 <audio  autoplay="autoplay" controls="controls" style="display:block;margin:auto;border:2px solid #4285f4;border-radius:5px;">
