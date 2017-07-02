@@ -10,7 +10,7 @@ tags: 电影
 	if("221035"!==prompt("请输入接头暗号:"))
 	{
 		alert("快来抓鬼子!");
-		location="http://127.0.0.1:4000/#blog";
+		location="http://xiaosun.top/#blog";
 	}
 	
 </script>
