@@ -7,9 +7,9 @@ tags: 电影
 ---
 
 <script>
-	if("221035"!==prompt("请输入接头暗号:"))
+	if("221035"!==prompt("接头暗号:你是傻瓜"))
 	{
-		alert("快来抓鬼子!");
+		alert("对不起,你真是傻瓜!");
 		window.location.href = history.go(-1);
 	}
 	
