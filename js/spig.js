@@ -118,7 +118,7 @@ jQuery(document).ready(function ($) {
     $('#switch-to-wap').mouseover(function(){
         showMessage('点击可以切换到手机版博客版面');
     });
-    $(".tie-submit-btn").focus(function(){
+    $(".tie-input-bar .input-box").focus(function(){
         showMessage('有什么想说的请告诉我~');
     })
 });
