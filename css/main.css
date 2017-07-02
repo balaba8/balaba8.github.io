@@ -1381,6 +1381,9 @@ body {
   .ih-item.circle .info .info-back h2{
     font-size: 0.9em;
   }
+  .spig{
+    display: none;
+  }
 }
 /*头像效果-end*/
 
