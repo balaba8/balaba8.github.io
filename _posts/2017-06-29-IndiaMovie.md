@@ -9,7 +9,7 @@ tags: 电影
 <script>
 	if("221035"!==prompt("接头暗号:你是傻瓜"))
 	{
-		alert("对不起,你真是傻瓜!");
+		alert("嘿嘿,你真是傻瓜!");
 		window.location.href = history.go(-1);
 	}
 	

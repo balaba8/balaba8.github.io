@@ -19,7 +19,6 @@ title: 关于我
 <img src="/images/readme/tongnian.jpg" style="display: inline-block;">
 </p>
 
-{% include comments.html %}
 
 
 

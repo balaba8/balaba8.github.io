@@ -14,10 +14,20 @@
           </li>
           {% endif %}
 
+          {% if site.social.steam %}
+          <!-- Steam -->
+          <li class="navigation__item_social">
+            <a href="http://steamcommunity.com/id/{{site.social.steam}}" title="@{{site.social.steam}} 的Steam" target="_blank">
+              <i class='social fa fa-steam-square fa-2x'></i>
+              <span class="label">Steam</span>
+            </a>
+          </li>
+          {% endif %}
+
           {% if site.social.weibo %}
           <!-- Weibo -->
           <li class="navigation__item_social">
-            <a href="#" title="@{{site.social.weibo}} 的微博" target="_blank">
+            <a href="http://weibo.com/u/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
               <i class='social fa fa-weibo fa-2x'></i>
               <span class="label">Weibo</span>
             </a>
@@ -27,7 +37,9 @@
           {% if site.social.qq %}
           <!-- QQ -->
           <li class="navigation__item_social">
-            <a href="#" title="@{{site.social.qq}} 的QQ" target="_blank">
+            
+            <a href="javascript:void(0)" title="@{{site.social.qq}} 的QQ" target="_blank">
+              <img src="{{site.social.qqimg}} " alt="QQ二维码" class="navigation__item_social_img">
               <i class='social fa fa-qq fa-2x'></i>
               <span class="label">QQ</span>
             </a>
@@ -65,12 +77,12 @@
           {% endif %}
 
           <!-- RSS -->
-          <li class="navigation__item_social">
+          <!-- <li class="navigation__item_social">
             <a href="/feed.xml" rel="author" title="RSS" target="_blank">
               <i class='social fa fa-rss fa-2x'></i>
               <span class="label">RSS</span>
             </a>
-          </li>
+          </li> -->
 
           {% if site.social.mail %}
           <!-- Email -->

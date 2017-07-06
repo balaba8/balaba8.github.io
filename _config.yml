@@ -17,10 +17,10 @@ comment:
 # Social
 social:    
     github: balaba8
-    qq: 1
+    steam: balaba8
+    qq: 我
+    qqimg: /images/qqimg.png
     weibo: 1
-    facebook: 1
-    # twitter: sunbin511
     mail: i@xiaosun.top
 
 # 百度统计 
@@ -62,7 +62,8 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     - {title: 所有文章, description: Archive, url: '/archive'}   
-    - {title: 标签, description: Tags, url: '/tags'}      
+    - {title: 标签, description: Tags, url: '/tags'}
+    - {title: 留言, description: Message, url: '/message'}      
     - {title: 关于我, description: About, url: '/about'}      
     
 
